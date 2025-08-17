@@ -31,8 +31,8 @@ for doc in docs:
 rag = AcademicAssistantRAG(
     embedding_model=embedding_model,
     chunks=chunks,
-    openrouter_api_key="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",  
-    model="deepseek/deepseek-chat-v3-0324:free",
+    openrouter_api_key= "ENTER YOUR API KEY",  
+    model="PREFFERED MODEL",
     use_cache=True
 )
 
